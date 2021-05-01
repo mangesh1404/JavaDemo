@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.jbk.Demo">
+        <methods>
+          <include name="verifyCourses"/>
+        </methods>
+      </class> <!-- com.jbk.Demo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
