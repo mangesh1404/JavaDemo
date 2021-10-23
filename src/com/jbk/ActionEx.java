@@ -36,6 +36,9 @@ public class ActionEx {
 		
 	}
 	
-	
+	@Test
+	public void test123(){
+		
+	}
 	
 }
