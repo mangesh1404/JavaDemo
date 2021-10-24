@@ -40,5 +40,8 @@ public class ActionEx {
 	public void test123(){
 		
 	}
-	
+	@Test
+	public void test123(){
+		
+	}
 }
